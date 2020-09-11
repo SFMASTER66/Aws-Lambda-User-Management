@@ -28,7 +28,7 @@ mongoose.connect(
 })
 
 //Running in local
-app.listen(3000);
+//app.listen(3000);
 
 //Running in AWS
-//module.exports = app;
+module.exports = app;

@@ -146,7 +146,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/aws-lambda-user-management/production/1599823002145-2020-09-11T11:16:42.145Z/aws-lambda-user-management.zip"
+          "S3Key": "serverless/aws-lambda-user-management/production/1599824396033-2020-09-11T11:39:56.033Z/aws-lambda-user-management.zip"
         },
         "FunctionName": "aws-lambda-user-management-production-api",
         "Handler": "lambda.handler",
@@ -164,14 +164,14 @@
         "ApiLogGroup"
       ]
     },
-    "ApiLambdaVersionvIAsOZ7Z2edZ7z3OSzdEIDQVtsDefDHfdI4jw2tZk": {
+    "ApiLambdaVersionR1pmT574uIGSCD7kMWnJgqMGEpQQTBBH3oB774gWgc": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ApiLambdaFunction"
         },
-        "CodeSha256": "q+3JDL+ywmGttzz2pisaq8hTJODbdiwTtJEkmKOwL9I="
+        "CodeSha256": "mBqOr0Z3n45qLTSMsRzdo0mqq0EzDzZkSA1//2oyMn4="
       }
     },
     "ApiGatewayRestApi": {
@@ -290,7 +290,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1599822985868": {
+    "ApiGatewayDeployment1599824386929": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -350,7 +350,7 @@
     "ApiLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ApiLambdaVersionvIAsOZ7Z2edZ7z3OSzdEIDQVtsDefDHfdI4jw2tZk"
+        "Ref": "ApiLambdaVersionR1pmT574uIGSCD7kMWnJgqMGEpQQTBBH3oB774gWgc"
       }
     },
     "ServiceEndpoint": {

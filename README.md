@@ -7,7 +7,7 @@ A RESTful backend API with NodeJS for user management
 The RESTful backend API has been deployed to AWS Lambda.
 <br />
 The main URL is
-<br />https://zks14wqiff.execute-api.ap-southeast-2.amazonaws.com/production.
+<br />https://zks14wqiff.execute-api.ap-southeast-2.amazonaws.com/production
 <br />
 The URL of user Management is
 <br />https://zks14wqiff.execute-api.ap-southeast-2.amazonaws.com/production/users
@@ -25,13 +25,12 @@ The format of the data is:
     "dateOfBirth": "2020.01.01"
 }
 ```
-We need to put the format above in the JSON in Postman
 
-Get all users:
+Get all users: (No value in the body when testing in AWS as **CloudFront doesn't allow GET with body**)
 ```
 https://zks14wqiff.execute-api.ap-southeast-2.amazonaws.com/production/users
 ```
-Get a user: (Remove the data in Postman in JSON if it is tested in AWS as **CloudFront doesn't allow GET with body**)
+Get a user: (No value in the body when testing in AWS as **CloudFront doesn't allow GET with body**)
 ```
 https://zks14wqiff.execute-api.ap-southeast-2.amazonaws.com/production/users/{userId}
 ```
@@ -54,9 +53,9 @@ https://zks14wqiff.execute-api.ap-southeast-2.amazonaws.com/production/users/{us
 <br />
 2: Open the project and go to app.js
 <br />
-3: comment out the 'module.exports = app';
+3: comment out the 'module.exports = app'
 <br />
-4: uncomment out the 'app.listen(3000)';
+4: uncomment out the 'app.listen(3000)'
 <br />
 5: npm start
 
