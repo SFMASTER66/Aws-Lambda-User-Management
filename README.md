@@ -1,7 +1,9 @@
 # Aws-Lambda-User-Management
 **Version 1.0.0**
 <br />
-A RESTful backend API with NodeJS for user management
+A RESTful backend API with NodeJS for user management.
+<br />
+The RESTful is implemented by Node.js, Express and MongoDB.
 
 # Getting Started
 The RESTful backend API has been deployed to AWS Lambda.
