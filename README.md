@@ -53,15 +53,15 @@ https://zks14wqiff.execute-api.ap-southeast-2.amazonaws.com/production/users/{us
 # How to run in local
 1: Install Node.js (version>=12)
 <br />
-1: Clone the project
+2: Clone the project
 <br />
-2: Run 'npm install', open the project and go to app.js
+3: Run 'npm install', open the project and go to app.js
 <br />
-3: comment out the 'module.exports = app'
+4: comment out the 'module.exports = app'
 <br />
-4: uncomment out the 'app.listen(3000)'
+5: uncomment out the 'app.listen(3000)'
 <br />
-5: npm start
+6: npm start
 
 # License & Copywrite
 © Mingyue Wei
