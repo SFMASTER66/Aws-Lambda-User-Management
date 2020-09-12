@@ -51,9 +51,11 @@ https://zks14wqiff.execute-api.ap-southeast-2.amazonaws.com/production/users/{us
 ```
 
 # How to run in local
+1: Install Node.js (version>=12)
+<br />
 1: Clone the project
 <br />
-2: Open the project and go to app.js
+2: Run 'npm install', open the project and go to app.js
 <br />
 3: comment out the 'module.exports = app'
 <br />
